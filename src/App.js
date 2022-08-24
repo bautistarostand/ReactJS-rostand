@@ -1,5 +1,6 @@
 
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   let imagen = "kqXt7Sq2.png";
@@ -9,6 +10,7 @@ let descripcion = "Imaginá la sensación del clásico Cuarto de Libra.Imaginalo
 const producto = {id: 1, image:imagen, title:titulo, calories:calorias, description:descripcion}; 
   return (
     <div className="container">
+      <NavBar />
       <div className="row">
         <div className="col-md-4 offset-md-2">
           <img src={imagen} alt={titulo} className="img-fluid"/>
