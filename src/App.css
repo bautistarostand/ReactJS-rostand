@@ -1,3 +1,11 @@
-.fondo_blanco {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo_amarillo {
   background-color: #ffff008e;
+}
+.link_NavBar {
+  color: red;
 }

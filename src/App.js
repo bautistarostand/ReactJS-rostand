@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './Assets/NavBar';
 
 function App() {
   let imagen = "kqXt7Sq2.png";
@@ -9,12 +10,9 @@ const producto = {id: 1, image:imagen, title:titulo, calories:calorias, descript
 
 
   return (
-    <div className="container-fluid">
-      
-
-      <ul>
-
-      </ul>
+    <div className="container-fluid fondo_amarillo">
+      <NavBar />
+      <hr />
       <div className="row">
         <div className="col-md-4 offset-md-2">
           <img src={imagen} alt={titulo} className="img-fluid"/>
