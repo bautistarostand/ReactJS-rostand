@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Assets/Footer';
 import NavBar from './Assets/NavBar';
 
 function App() {
@@ -23,6 +24,7 @@ const producto = {id: 1, image:imagen, title:titulo, calories:calorias, descript
           <p>{producto.description}</p>
           </div>
         </div>
+        <Footer/>
        
     </div>
   );
