@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./images/mcdonalds-logo-footer-bg-white.png";
 
+const Slogan = () => <p>Me encanta!</p>
+
 const Navbar = () => {
     return (
         <div className="container">
@@ -18,6 +20,7 @@ const Navbar = () => {
                     <a className="nav-link link_NavBar" href="#">En Familia</a>
                 </li>
             </ul>
+            <Slogan />
         </div>
     )
 }
